@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavishya Sharma | AI/ML &amp; Full Stack Console</title>
+    <meta name="description" content="Cybernetic developer console and portfolio of Bhavishya Sharma, AI/ML Engineer and Web Developer.">
+    <!-- Google Fonts: Plus Jakarta Sans for structural elements & JetBrains Mono for system elements -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Live Canvas Network Background -->
+    <canvas id="neural-canvas"></canvas>
+
+    <!-- Custom Cursor Follower -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <!-- Main Outer Dashboard Console Frame -->
+    <div class="console-frame">
+        <!-- Top Status Bar Info -->
+        <div class="console-bar top-bar">
+            <div class="bar-left">
+                <span class="status-indicator">
+                    <span class="pulse-dot"></span>
+                    <span class="status-text">SYSTEM: ACTIVE</span>
+                </span>
+                <span class="divider">|</span>
+                <span class="bar-meta">LOC: FARIDABAD, IN</span>
+            </div>
+            <div class="bar-center">
+                <span class="console-logo">BHAVISHYA_SHARMA // CONSOLE_V2.0</span>
+            </div>
+            <div class="bar-right">
+                <span class="time-widget" id="consoleTime">20:20:15 UTC</span>
+            </div>
+        </div>
+
+        <!-- Inner Content Scroll Container -->
+        <div class="console-main">
+            <!-- Floating Navigation inside frame -->
+            <header class="header">
+                <nav class="nav-links">
+                    <a href="#about" class="nav-link"><span class="nav-num">[01]</span> :ABOUT</a>
+                    <a href="#experience" class="nav-link"><span class="nav-num">[02]</span> :EXPERIENCE</a>
+                    <a href="#projects" class="nav-link"><span class="nav-num">[03]</span> :PROJECTS</a>
+                    <a href="#credentials" class="nav-link"><span class="nav-num">[04]</span> :CREDENTIALS</a>
+                    <a href="#contact" class="nav-link"><span class="nav-num">[05]</span> :CONTACT</a>
+                </nav>
+            </header>
+
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="hero-content">
+                    <span class="hero-label">AI/ML ENGINEER &amp; FULL STACK DEVELOPER</span>
+                    <h1 class="hero-title">BHAVISHYA SHARMA</h1>
+                    <p class="hero-subtitle">
+                        Developing autonomous pipelines, training predictive machine learning models, and building responsive web architectures.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-outline">
+                            <span class="btn-prefix">:</span>GET IN TOUCH
+                        </a>
+                        <a href="https://www.linkedin.com/in/bhavishyaone/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <span class="btn-prefix">-></span>LINKEDIN
+                        </a>
+                        <a href="https://www.instagram.com/bhavishyaxa/?hl=en" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <span class="btn-prefix">-></span>INSTAGRAM
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 01: About / Objective -->
+            <section id="about" class="section border-top">
+                <div class="section-grid">
+                    <div class="section-sidebar">
+                        <span class="section-number">[01]</span>
+                        <h2 class="section-title">:OBJECTIVE</h2>
+                    </div>
+                    <div class="section-body">
+                        <p class="lead-text">
+                            B.Tech student in Artificial Intelligence and Machine Learning at Shri Vishwakarma Skill University. Specializing in neural architecture, data processing systems, and modern frontend deployment.
+                        </p>
+                        
+                        <div class="objective-stats">
+                            <div class="stat-card">
+                                <span class="stat-label">FOCUS</span>
+                                <span class="stat-value">Deep Learning / Web Architecture</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">ACADEMICS</span>
+                                <span class="stat-value">B.Tech AI &amp; ML @ SVSU (2025-2029)</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">OPERATIONS</span>
+                                <span class="stat-value">Faridabad/Delhi Core Infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 02: Experience -->
+            <section id="experience" class="section border-top">
+                <div class="section-grid">
+                    <div class="section-sidebar">
+                        <span class="section-number">[02]</span>
+                        <h2 class="section-title">:EXPERIENCE</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="experience-log">
+                            <!-- Job 1 -->
+                            <div class="log-row">
+                                <div class="log-meta">
+                                    <span class="log-date">MAY - JUN 2026</span>
+                                    <span class="log-tag">INTERN</span>
+                                </div>
+                                <div class="log-details">
+                                    <h3 class="log-title">Web Developer // InAmigos Foundation</h3>
+                                    <p class="log-desc">Frontend development using semantic layouts. Constructed clean UI pages and validated credentials. (Registry ID: U85300CT2020NPL010641)</p>
+                                    <div class="log-stack">
+                                        <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span><span class="stack-tag">JavaScript</span><span class="stack-tag">Git</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 2 -->
+                            <div class="log-row">
+                                <div class="log-meta">
+                                    <span class="log-date">JAN 2025 - PRES</span>
+                                    <span class="log-tag">LEAD</span>
+                                </div>
+                                <div class="log-details">
+                                    <h3 class="log-title">Lead Tech, Operations &amp; Managing Head // Volkan &amp; Core MUN</h3>
+                                    <p class="log-desc">Administering digital workspaces, system workflow automation, site hosting setups, and IT infrastructure during Model UN conferences.</p>
+                                    <div class="log-stack">
+                                        <span class="stack-tag">Workflow Automation</span><span class="stack-tag">IT Operations</span><span class="stack-tag">Web Systems</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 3 -->
+                            <div class="log-row">
+                                <div class="log-meta">
+                                    <span class="log-date">JAN 2025 - PRES</span>
+                                    <span class="log-tag">HEAD</span>
+                                </div>
+                                <div class="log-details">
+                                    <h3 class="log-title">Operations &amp; Tech Head // TEDxSVSU</h3>
+                                    <p class="log-desc">Directing campus digital infrastructure, staging AV automation, networking configuration, and IT operations for events.</p>
+                                    <div class="log-stack">
+                                        <span class="stack-tag">AV Systems</span><span class="stack-tag">Network Setup</span><span class="stack-tag">Operations</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 03: Projects -->
+            <section id="projects" class="section border-top">
+                <div class="section-grid">
+                    <div class="section-sidebar">
+                        <span class="section-number">[03]</span>
+                        <h2 class="section-title">:PROJECTS</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="console-projects-grid">
+                            <!-- Project 1: Amazon -->
+                            <div class="project-box">
+                                <div class="project-box-header">
+                                    <span class="project-num">P_01</span>
+                                    <span class="project-tag">CLONE</span>
+                                </div>
+                                <h3 class="project-box-title">Amazon storefront Clone</h3>
+                                <p class="project-box-desc">Replication of responsive grids, category banners, product carousels, and search navigation mechanics.</p>
+                                <a href="https://proj2amazon.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box-link">
+                                    :LAUNCH_LIVE <span class="link-arrow">-></span>
+                                </a>
+                            </div>
+
+                            <!-- Project 2: Netflix -->
+                            <div class="project-box">
+                                <div class="project-box-header">
+                                    <span class="project-num">P_02</span>
+                                    <span class="project-tag">CLONE</span>
+                                </div>
+                                <h3 class="project-box-title">Netflix catalog Clone</h3>
+                                <p class="project-box-desc">A streaming visual interface studying lazy-loading images, horizontal list scrolls, and overlay hover card states.</p>
+                                <a href="https://proj1nettflix.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box-link">
+                                    :LAUNCH_LIVE <span class="link-arrow">-></span>
+                                </a>
+                            </div>
+
+                            <!-- Project 3: Clicker -->
+                            <div class="project-box">
+                                <div class="project-box-header">
+                                    <span class="project-num">P_03</span>
+                                    <span class="project-tag">EFFECT</span>
+                                </div>
+                                <h3 class="project-box-title">Click Anywhere Effect</h3>
+                                <p class="project-box-desc">Coord-mapped javascript particle system generating custom radial expands on screen pointer click coordinates.</p>
+                                <a href="https://clickeranywhere.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box-link">
+                                    :LAUNCH_LIVE <span class="link-arrow">-></span>
+                                </a>
+                            </div>
+
+                            <!-- Project 4: Clock -->
+                            <div class="project-box">
+                                <div class="project-box-header">
+                                    <span class="project-num">P_04</span>
+                                    <span class="project-tag">UTILITY</span>
+                                </div>
+                                <h3 class="project-box-title">Digital Clock Interface</h3>
+                                <p class="project-box-desc">Minimal browser clock featuring precise timestamp formatting, client-side intervals, and responsive layout.</p>
+                                <a href="https://digitallclocck.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box-link">
+                                    :LAUNCH_LIVE <span class="link-arrow">-></span>
+                                </a>
+                            </div>
+
+                            <!-- Project 5: Todo -->
+                            <div class="project-box">
+                                <div class="project-box-header">
+                                    <span class="project-num">P_05</span>
+                                    <span class="project-tag">APP</span>
+                                </div>
+                                <h3 class="project-box-title">Toodooliisst Manager</h3>
+                                <p class="project-box-desc">React task dashboard exploring client state persistence, filter views, item edits, and checked status hooks.</p>
+                                <a href="https://toodooliisst.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-box-link">
+                                    :LAUNCH_LIVE <span class="link-arrow">-></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 04: Credentials & Skills -->
+            <section id="credentials" class="section border-top">
+                <div class="section-grid">
+                    <div class="section-sidebar">
+                        <span class="section-number">[04]</span>
+                        <h2 class="section-title">:CREDENTIALS</h2>
+                    </div>
+                    <div class="section-body">
+                        <!-- Skills tag row -->
+                        <div class="skills-log">
+                            <span class="skills-label">SKILLS_MATRIX //</span>
+                            <div class="skills-wrapper">
+                                <span class="skill-node">Python</span>
+                                <span class="skill-node">JavaScript</span>
+                                <span class="skill-node">Machine Learning</span>
+                                <span class="skill-node">React</span>
+                                <span class="skill-node">HTML/CSS</span>
+                                <span class="skill-node">Pandas</span>
+                                <span class="skill-node">NumPy</span>
+                                <span class="skill-node">Git/GitHub</span>
+                                <span class="skill-node">Workflow Automation</span>
+                            </div>
+                        </div>
+
+                        <!-- Credentials Grid List -->
+                        <div class="credentials-log-table">
+                            <div class="table-header-row">
+                                <span class="col-title">CERTIFICATION</span>
+                                <span class="col-issuer">ISSUER</span>
+                                <span class="col-meta">VERIFICATION_ID</span>
+                            </div>
+                            
+                            <!-- Cert 1 -->
+                            <div class="table-row">
+                                <span class="col-title">Claude Code in Action</span>
+                                <span class="col-issuer">Anthropic</span>
+                                <span class="col-meta"><a href="https://verify.skilljar.com/c/opejb8jaghux" target="_blank" rel="noopener noreferrer" class="cert-verify-link">opejb8jaghux</a></span>
+                            </div>
+                            <!-- Cert 2 -->
+                            <div class="table-row">
+                                <span class="col-title">AI Fluency for Students</span>
+                                <span class="col-issuer">Anthropic</span>
+                                <span class="col-meta">VERIFIED</span>
+                            </div>
+                            <!-- Cert 3 -->
+                            <div class="table-row">
+                                <span class="col-title">Basics of Azure Services</span>
+                                <span class="col-issuer">Microsoft</span>
+                                <span class="col-meta">9820310</span>
+                            </div>
+                            <!-- Cert 4 -->
+                            <div class="table-row">
+                                <span class="col-title">Databricks for Machine Learning</span>
+                                <span class="col-issuer">Databricks</span>
+                                <span class="col-meta">9818995</span>
+                            </div>
+                            <!-- Cert 5 -->
+                            <div class="table-row">
+                                <span class="col-title">Create Image Captioning Models</span>
+                                <span class="col-issuer">Google Cloud</span>
+                                <span class="col-meta">9755838</span>
+                            </div>
+                            <!-- Cert 6 -->
+                            <div class="table-row">
+                                <span class="col-title">Image Recognition with ML</span>
+                                <span class="col-issuer">Simplilearn</span>
+                                <span class="col-meta">9762910</span>
+                            </div>
+                            <!-- Cert 7 -->
+                            <div class="table-row">
+                                <span class="col-title">Building an ML Ready Org</span>
+                                <span class="col-issuer">AWS</span>
+                                <span class="col-meta">9749176</span>
+                            </div>
+                            <!-- Cert 8 -->
+                            <div class="table-row">
+                                <span class="col-title">Gemini for Google Workspace</span>
+                                <span class="col-issuer">Google Cloud</span>
+                                <span class="col-meta">9734681</span>
+                            </div>
+                            <!-- Cert 9 -->
+                            <div class="table-row">
+                                <span class="col-title">AWS ML Foundations Basics</span>
+                                <span class="col-issuer">AWS</span>
+                                <span class="col-meta">9728951</span>
+                            </div>
+                            <!-- Cert 10 -->
+                            <div class="table-row">
+                                <span class="col-title">NLP &amp; Text Mining Tutorial</span>
+                                <span class="col-issuer">Simplilearn</span>
+                                <span class="col-meta">9729365</span>
+                            </div>
+                            <!-- Cert 11 -->
+                            <div class="table-row">
+                                <span class="col-title">AI in Finance</span>
+                                <span class="col-issuer">Simplilearn</span>
+                                <span class="col-meta">9727128</span>
+                            </div>
+                            <!-- Cert 12 -->
+                            <div class="table-row">
+                                <span class="col-title">Innovating with Google Cloud AI</span>
+                                <span class="col-issuer">Google Cloud</span>
+                                <span class="col-meta">9724700</span>
+                            </div>
+                            <!-- Cert 13 -->
+                            <div class="table-row">
+                                <span class="col-title">Generative AI for Beginners</span>
+                                <span class="col-issuer">Simplilearn</span>
+                                <span class="col-meta">9724701</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 05: Contact / Form -->
+            <section id="contact" class="section border-top">
+                <div class="section-grid">
+                    <div class="section-sidebar">
+                        <span class="section-number">[05]</span>
+                        <h2 class="section-title">:CONTACT</h2>
+                    </div>
+                    <div class="section-body">
+                        <p class="lead-text">
+                            Initiate a digital pipeline. Send a transmission detailing project specifications or collaboration openings.
+                        </p>
+
+                        <form class="console-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">:SENDER_NAME</label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="Enter name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">:SENDER_EMAIL</label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="name@domain.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">:TRANSMISSION_BODY</label>
+                                <textarea id="message" name="message" class="form-input form-textarea" placeholder="Enter message text..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline btn-submit">
+                                :SEND_TRANSMISSION <span class="btn-arrow">-></span>
+                            </button>
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+
+                        <div class="console-footer-details">
+                            <div class="footer-meta-block">
+                                <span class="meta-title">:CONNECT_CHANNELS</span>
+                                <div class="meta-links">
+                                    <a href="mailto:bakshibhavi@gmail.com" class="meta-link">EMAIL: bakshibhavi@gmail.com</a>
+                                    <a href="https://www.linkedin.com/in/bhavishyaone/" target="_blank" rel="noopener noreferrer" class="meta-link">LINKEDIN: bhavishyaone</a>
+                                    <a href="https://www.instagram.com/bhavishyaxa/?hl=en" target="_blank" rel="noopener noreferrer" class="meta-link">INSTAGRAM: bhavishyaxa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Console Frame Info -->
+            <footer class="footer border-top">
+                <div class="footer-bar">
+                    <span class="footer-copyright">&copy; 2026 BHAVISHYA SHARMA // ALL SYSTEM PARAMETERS NOMINAL</span>
+                    <a href="#hero" class="back-to-top">:BACK_TO_TOP ↑</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
